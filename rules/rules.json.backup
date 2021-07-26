@@ -1,0 +1,6 @@
+[
+    "^/directory/bad-url$ /directory/index.html [R=301,L]",
+    "^(.*)/$ $1/index.html [R,L]",
+    "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
+    "^(((?!\\.).)*)$ $1/index.html [R,L]"
+]
